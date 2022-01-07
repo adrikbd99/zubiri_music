@@ -1,0 +1,60 @@
+#parrafo1 {
+	color: black;
+	font-size: 20px;
+}
+
+#contenedor {
+	background-image: url(../MEDIA/fondo_inicio.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 120% 140%;
+	height: 100%;
+	width: 100%;
+}
+
+#seccion {
+	clear: both;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10%;
+	height: 550px;
+
+}
+
+#aside1 {
+	clear: both;
+	width: 100%;
+}
+
+.divs {
+	display: inline-block;
+	width: 25%;
+	margin: 3.1%;
+	margin-right: auto;
+	margin-right: auto;
+	height: 180px;
+}
+
+.texto_entrar {
+	float: left;
+	margin-left: 17%;
+	margin-top: 2%;
+}
+
+#parrafo1 {
+	color: white;
+	font-size: 80px;
+	text-shadow: 3px 3px 8px black;
+	text-align: center;
+	font-weight: bold;
+}
+
+#parrafo2 {
+	color: #e7bb41;
+	font-size: 40px;
+	margin-top: 5%;
+	text-shadow: 3px 3px 8px black;
+	text-align: center;
+	font-weight: bold;
+}

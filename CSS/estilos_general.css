@@ -1,0 +1,289 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Sen', sans-serif;
+}
+
+h2 {
+	color: #393e41;
+	margin-bottom: 4%;
+	text-align: center;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    list-style: none;
+    color: white;
+}
+
+a:hover {
+	color: #e7bb41;
+}
+
+#contenedor {
+	overflow: hidden;
+	height: auto;
+}
+
+#cabecera {
+	background-color: rgba(57, 62, 65, 0.9);
+	color: white;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	overflow: hidden;
+	height: auto;
+	box-shadow: 1px 1px 50px black;
+}
+
+#div_logo {
+	float: left;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	margin-left: 3%;
+}
+
+#menu {
+	float: right;
+	width: 75%;
+	height: auto;
+	margin-top: 1%;
+	margin-bottom: auto;
+	margin-right: %;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.listas_menu {
+	float: left;
+	width: auto;
+	font-size: 20px;
+	margin-left: 3%;
+	margin-right: 5%;
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    list-style: none;
+    background-image: linear-gradient(#e7bb41, #e7bb41);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .4s;
+}
+
+.listas_menu:hover {
+	background-size: 100% 3px;
+	color: #e7bb41;
+}
+
+
+#logo {
+	display: block;
+	background-image: url("../MEDIA/LOGO_ZUBIRIMUSIC.png"); 
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+	height: 120px;
+	width: 120px;
+	margin: auto;
+}
+
+#seccion {
+	float: left;
+	width: 67%;
+	overflow: hidden;
+	height: auto;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	color: white;
+}
+
+#aside1 {
+	float: right;
+	width: 30%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	overflow: hidden;
+	height: auto;
+}
+
+.divs {
+	float: left;
+	overflow: hidden;
+	width: 85%;
+	margin-bottom: 2%;
+	background-color: white;
+	height: auto;
+	padding: 2%;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #393e41;
+}
+
+#mapa {
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #393e41;
+}
+
+#pie_pagina {
+	clear: both;
+	overflow: hidden;
+	height: auto;
+	padding: 2%;
+	background-color: rgba(57, 62, 65, 1);
+	box-shadow: 3px 3px 5px #393e41;
+	border-top: 3px solid #e7bb41;
+}
+
+#texto_pie {
+	float: left;
+	width: 40%;
+	padding-left: 3%;
+	color: white;
+}
+
+#copy {
+	text-align: center;
+	clear: both;
+	color: white;
+}
+
+#twitter {
+	background-image: url("../MEDIA/twitter.png"); 
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	height: 60px;
+	width: 60px;
+	margin-bottom: 1%;
+}
+
+#instagram {
+	background-image: url("../MEDIA/instagram.png"); 
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	height: 60px;
+	width: 60px;
+	margin-bottom: 1%;
+}
+
+#facebook {
+	background-image: url("../MEDIA/facebook.png"); 
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	height: 60px;
+	width: 60px;
+	margin-bottom: 1%;
+}
+
+#entrar {
+	margin-top: 4%;
+	color: #e7bb41;
+}
+
+.rellenar_entrar {
+	float: right;
+	margin-right: 17%;
+	margin-top: 3%;
+	padding: 1%;
+	color: #393e41;
+	background-color: white;
+	border: 1px solid #e7bb41;
+	border-radius: 5px;
+	opacity: 70%;
+}
+
+.texto_entrar {
+	float: left;
+	margin-left: 17%;
+	margin-top: 3%;
+	padding: 1%;
+}
+
+#enviar_entrar {
+	display: block;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #e7bb41;
+	border: 1px solid #e7bb41;
+	border-radius: 5px;
+	padding: 1%;
+	opacity: 80%;
+}
+
+#enviar_entrar:hover {
+	opacity: 100%;
+	cursor: pointer;
+	font-style: oblique;
+}
+
+.listas_artistas {
+	display: inline-block;
+	background-color: #e7bb41;
+	float: left;
+	list-style: none;
+	font-size: 17px;
+	color: #e7bb41;
+	border: 2px solid #e7bb41;
+	border-radius: 10px;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin: 2%;
+	opacity: 80%;
+}
+
+.listas_artistas:hover {
+	opacity: 100%;
+	background-color: white;
+	font-weight: bold;
+}
+
+#texto_suscribirse {
+	color: #e7bb41;
+	float: left;
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+#rellenar_suscribirse {
+	float: left;
+	margin-left: 1%;
+	color: #393e41;
+	background-color: white;
+	border: 1px solid #e7bb41;
+	border-radius: 5px;
+	padding: 1%;
+	margin-bottom: 4%;
+	opacity: 70%;
+}
+
+#enviar_suscribirse {
+	display: block;
+	clear: both;
+	margin-left: 1%;
+	color: white;
+	background-color: #e7bb41;
+	border: 1px solid #e7bb41;
+	border-radius: 5px;
+	padding: 1%;
+	opacity: 80%;
+}
+
+#enviar_suscribirse:hover {
+	opacity: 100%;
+	cursor: pointer;
+	font-style: oblique;
+}
+
+#parrafo_suscribirse {
+	color: #393e41;
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}

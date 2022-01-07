@@ -1,0 +1,92 @@
+#contenedor {
+	background-image: url(../MEDIA/fondo_entradas.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+
+.div_entradas {
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 1%;
+	background-color: rgba(57, 62, 65, 0.95);
+	padding: 2%;
+	padding-left: 5%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+	width: 90%;
+	overflow: hidden;
+	height: 600px;
+}
+
+#titulo {
+	text-align: center;
+	color: #e7bb41;
+	text-shadow: 3px 3px 3px black;
+	font-size: 25px;
+	margin-bottom: 5%;
+	font-family: 'Sen', sans-serif;
+}
+
+#formulario {
+	float: left;
+	width: 50%;
+	margin-top: 5%;
+}
+
+.texto_formulario {
+	margin-bottom: 3%;
+	font-size: 20px;
+	color: white;
+}
+
+#artistas {
+	font-size: 17px;
+	background-color: #e7bb41;
+	color: white;
+}
+
+#fecha {
+	font-size: 17px;
+	background-color: #e7bb41;
+	color: white;
+}
+
+#barra_entradas {
+	background-color: #e7bb41;
+}
+
+#realizar {
+	color: #e7bb41;
+	font-style: italic;
+}
+
+#enviar_formulario {
+	margin-bottom: 2%;
+	margin-top: 2%;
+	color: white;
+	background-color: #e7bb41;
+	border: 1px solid #e7bb41;
+	border-radius: 5px;
+	padding: 1%;
+	opacity: 80%;
+	font-size: 20px;
+}
+
+#enviar_formulario:hover {
+	opacity: 100%;
+	font-style: oblique;
+}
+
+#compras {
+	float: right;
+	background-image: url(../MEDIA/tarjetas.png);
+	background-repeat: no-repeat;
+	background-size: 320px 300px;
+	height: 300px;
+	width: 320px;
+	margin-right: 15%;
+	margin-top: 7%;
+}
